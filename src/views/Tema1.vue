@@ -215,7 +215,6 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/w6wx0tUTO4U" title="¿Cómo Reportar el Accidente Laboral?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-
     .row.mt-5
       .col-lg-1.col-md-3.mb-4.mb-md-0(style="place-self:center")
         figure
