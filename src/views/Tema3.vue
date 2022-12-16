@@ -48,7 +48,7 @@
               img(src="@/assets/curso/tema3/4.svg" data-aos="fade-right")
           .col
             p(data-aos="fade-up") Otra forma es los medios de comunicación satisfactoria con todas las áreas y centros de trabajo de la empresa, la cual hace posible divulgar la gestión interna (políticas, lineamientos, estrategias, procedimientos, formatos, sanciones, circulares, llamados de atención y comunicados) a todos los empleados y recibir llamados de mejora continua para la empresa, estos medios de comunicación también pueden ser: 
-            p.mt-4(data-aos="fade-up") #[strong(style="color:#465FC4;") Correo electrónico (e-mail), intranet, chat, página web, red telefónica o informes escritos entre otras muchas opciones físicas y digitales.]
+            p.mt-4(data-aos="fade-up") #[strong(style="color:#465FC4;") Correo electrónico #[em (e-mail), intranet, chat], página web, red telefónica o informes escritos entre otras muchas opciones físicas y digitales.]
       .col-lg-3.ps-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema3/3.png" data-aos="fade-left")

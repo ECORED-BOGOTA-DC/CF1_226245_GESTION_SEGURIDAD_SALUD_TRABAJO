@@ -31,7 +31,7 @@
             p.mb-0(data-aos="fade-up") #[strong MinTrabajo (s. f.),] &nbsp;
             i.fas.fa-quote-right(data-aos="fade-left")
 
-    p.mt-5(data-aos="fade-up") basado en la mejora continua, lo cual incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en los espacios laborales.  A ese respecto se ha trabajado en legalidad al respecto desde hace varios años, las normas más representativas son las que se presentan a continuación
+    p.mt-5(data-aos="fade-up") Basado en la mejora continua, lo cual incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en los espacios laborales.  A ese respecto se ha trabajado en legalidad al respecto desde hace varios años, las normas más representativas son las que se presentan a continuación.
 
     .row.mt-5
       .col-lg.mb-4.mb-lg-0

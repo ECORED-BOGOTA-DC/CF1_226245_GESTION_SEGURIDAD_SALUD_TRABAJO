@@ -318,7 +318,7 @@ export default {
         'probabilidad de que un evento ocurra. Abarca una variedad de medidas de probabilidad de un resultado generalmente no favorable (MeSH/NLM). Número esperado de pérdidas humanas, personas heridas, propiedad dañada e interrupción de actividades económicas debido a fenómenos naturales particulares y por consiguiente, el producto de riesgos específicos y elementos de riesgo.',
     },
     {
-      termino: 'Seguridad Industria',
+      termino: 'Seguridad Industrial',
       significado:
         'uno de los cuatro subprogramas definidos al interior de un Programa de Seguridad y Salud Trabajo que se encarga de vigilar aquellos factores de riesgo que pueden ocasionar accidentes de trabajo. Vigila todas aquellas condiciones y/o actos inseguros a nivel del medio o del trabajador con potencialidad de generar Accidentes de Trabajo. La Seguridad Industrial como capítulo de la salud ocupacional normalmente va acompañada del subprograma de Higiene Industrial.',
     },
@@ -438,8 +438,8 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: '',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Melina Tatiana Quintero Rodriguez',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
