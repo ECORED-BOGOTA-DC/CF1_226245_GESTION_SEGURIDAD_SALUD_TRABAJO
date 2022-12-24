@@ -31,7 +31,7 @@
           .row.ps-5(titulo="Elementos de protección personas")
             p Se componen de casco, gafas, protección auditiva, mascarillas, calzado de seguridad, protección para oídos, entre otros.  
       .col-lg-5(style="place-self:center;")
-        figure
+        figure.col-8.col-md-5.col-lg-12.m-auto
           img(src="@/assets/curso/tema3/2.svg" data-aos="fade-left")
     
     Separador.mt-5
@@ -60,7 +60,7 @@
     
     .row
       .col-lg-1.col-md-3.mb-4.mb-md-0(style="place-self:center")
-        figure
+        figure.col-6.m-auto
           img(src="@/assets/curso/tema3/5.svg" data-aos="fade-right")
       .col-lg-11.col-md-9(style="place-self:center")
         p.mb-0(data-aos="fade-up") La documentación del sistema es una de las exigencias de tipo legal y en este sentido es necesario realizar todo tipo de acción que conlleve a una mejora continua que se pueda evidenciar y para ello registrar en los formatos correspondientes las evidencias de cada uno de los casos. Las acciones son de tipo preventivo y correctivo como se muestra a continuación:
@@ -105,59 +105,59 @@
           img(src="@/assets/curso/tema3/9.png" data-aos="fade-left")
     
     SlyderF.mt-5(columnas="col-lg-6 col-xl-3")
-      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;")
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/tema3/10.svg')
-        h4.text-center Nombre del indicador
+      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;min-height:450px;")
+        .row.justify-content-center
+          .col-12.d-flex.justify-content-center
+            img(src='@/assets/curso/tema3/10.svg' style="max-width:90px;")
+        h4.text-center.mt-3 Nombre del indicador
         p.text-center Porcentaje de #[strong acciones preventivas] realizadas. Demuestra el grado de cumplimiento de las acciones preventivas adoptadas.
-      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;")
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/tema3/11.svg')
-        h4.text-center Fórmula
+      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;min-height:450px;")
+        .row.justify-content-center
+          .col-12.d-flex.justify-content-center
+            img(src='@/assets/curso/tema3/11.svg' style="max-width:90px;")
+        h4.text-center.mt-3 Fórmula
         p.text-center (# de acciones preventivas cerradas / # total de acciones existentes) × 100. 
-      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;")
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/tema3/12.svg')
-        h4.text-center Nombre del indicador
+      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;min-height:450px;")
+        .row.justify-content-center
+          .col-12.d-flex.justify-content-center
+            img(src='@/assets/curso/tema3/12.svg' style="max-width:90px;")
+        h4.text-center.mt-3 Nombre del indicador
         p.text-center Porcentaje de acciones correctivas realizadas. Denota el grado de cumplimiento de las acciones correctivas implementadas.
-      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;")
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/tema3/13.svg')
-        h4.text-center Fórmula
+      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;min-height:450px;")
+        .row.justify-content-center
+          .col-12.d-flex.justify-content-center
+            img(src='@/assets/curso/tema3/13.svg' style="max-width:90px;")
+        h4.text-center.mt-3 Fórmula
         p.text-center (# de acciones preventivas correctivas cerradas / # total de acciones existentes) × 100.
-      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;")
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/tema3/14.svg')
-        h4.text-center La meta
+      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;min-height:450px;")
+        .row.justify-content-center
+          .col-12.d-flex.justify-content-center
+            img(src='@/assets/curso/tema3/14.svg' style="max-width:90px;")
+        h4.text-center.mt-3 La meta
         p.text-center Ideal es cerrar siempre al 100%; es de tener en cuenta que estos indicadores tienden a aumentar su meta, en tal razón puede empezar por 50%, dependiendo de la naturaleza de cada empresa para dar la oportunidad a la mejora progresiva.
-      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;")
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/tema3/15.svg')
-        h4.text-center Frecuencia de medición
+      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;min-height:450px;")
+        .row.justify-content-center
+          .col-12.d-flex.justify-content-center
+            img(src='@/assets/curso/tema3/15.svg' style="max-width:90px;")
+        h4.text-center.mt-3 Frecuencia de medición
         p.text-center Es prudente proyectarlo a un periodo trimestral, máximo semestral.
-      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;")
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/tema3/16.svg')
-        h4.text-center Tipo de indicadores
+      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;min-height:450px;")
+        .row.justify-content-center
+          .col-12.d-flex.justify-content-center
+            img(src='@/assets/curso/tema3/16.svg' style="max-width:90px;")
+        h4.text-center.mt-3 Tipo de indicadores
         p.text-center Eficacia.
-      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;")
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/tema3/17.svg')
-        h4.text-center Fuente de información
+      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;min-height:450px;")
+        .row.justify-content-center
+          .col-12.d-flex.justify-content-center
+            img(src='@/assets/curso/tema3/17.svg' style="max-width:90px;")
+        h4.text-center.mt-3 Fuente de información
         p.text-center Corresponde a todos los procesos de la organización.
-      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;")
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/tema3/18.svg')
-        h4.text-center Responsable
+      .tarjeta.color-primario.p-4(style="background-color:#D5F5E9;min-height:450px;")
+        .row.justify-content-center
+          .col-12.d-flex.justify-content-center
+            img(src='@/assets/curso/tema3/18.svg' style="max-width:90px;")
+        h4.text-center.mt-3 Responsable
         p.text-center Se designa como responsable al jefe de cada proceso.
 
 
@@ -193,12 +193,4 @@ export default {
   color: white
   padding: 0.8rem 1.2rem
   border-radius: 100%
-.slyder-f
-  .horizontal-scroll
-    display: flex !important
-    align-items: stretch !important
-    height: 100%
-    .slyder-f__slyde
-      display: flex
-      align-items: stretch
 </style>

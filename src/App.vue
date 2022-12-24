@@ -63,4 +63,6 @@ export default {
   color: #12263f !important
 .banner-interno__titulo__icono
   background-color: #12263f !important
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: #12263f !important
 </style>

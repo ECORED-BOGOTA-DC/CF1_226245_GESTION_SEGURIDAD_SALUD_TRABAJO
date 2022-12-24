@@ -22,7 +22,7 @@
 
     .row.mt-5
       .col-lg-1.col-md-3.mb-4.mb-md-0(style="place-self:center")
-        figure
+        figure.col-6.m-auto
           img(src="@/assets/curso/tema2/2.svg" data-aos="fade-right")
       .col-lg-11.col-md-9(style="place-self:center")
         p.mb-0(data-aos="fade-up") Los incidentes y accidentes son impredecibles, aunque en muchos casos parecen obvios, las causas de estos sucesos son casi infinitas e incluyen la responsabilidad laboral y administrativa del empleado y el empleador dado que esa relación siempre está mediada por un ambiente y un trabajo oficial que varía en riesgos, clasificar esas causas no es fácil, por eso se hace una clasificación general en dos posibles causas como se muestra a continuación:
@@ -81,7 +81,7 @@
     
     .row
       .col-lg-1.col-md-3.mb-4.mb-md-0(style="place-self:center")
-        figure
+        figure.col-6.m-auto
           img(src="@/assets/curso/tema2/6.svg" data-aos="fade-right")
       .col-lg-11.col-md-9(style="place-self:center")
         p.mb-0(data-aos="fade-up") Está conformado por el profesional responsable del Sgsst, el trabajador, el jefe inmediato del trabajador y un miembro del Copasst o el vigía de SST. Además, se tendrá en cuenta las versiones del testigo o testigos del accidente de trabajo. Estas son las responsabilidades de los actores investigadores de un evento:
@@ -93,11 +93,11 @@
             h4(data-aos="fade-right") El trabajador.
             p.mt-4(data-aos="fade-right") El trabajador tendrá la obligación de rendir su versión en cuanto a todo lo ocurrido en su accidente de trabajo para facilitar el reconocimiento de las causas que originaron su siniestro. 
           .col-lg-4
-            figure
+            figure.col-lg-12.col-md-5.m-auto.col-9
               img(src='@/assets/curso/tema2/7.svg' data-aos="fade-left")
         .row
           .col-lg-4.mb-4.mb-lg-0
-            figure
+            figure.col-lg-12.col-md-5.m-auto.col-9
               img(src='@/assets/curso/tema2/8.svg' data-aos="fade-right")
           .col-lg-8
             h4.text-start(data-aos="fade-left") El jefe inmediato.
@@ -107,11 +107,11 @@
             h4(data-aos="fade-right") El responsable de la seguridad y salud en el trabajo.
             p.mt-4(data-aos="fade-right") El profesional responsable del Sgsst será quien lidere la investigación, garantizando el cumplimiento normativo legal vigente, a su vez diligencia el formato de investigación justo en el momento en el que se reúne todo el equipo investigador, es el guía y quien dispone el plan de mejora.
           .col-lg-4
-            figure
+            figure.col-lg-12.col-md-5.m-auto.col-9
               img(src='@/assets/curso/tema2/9.svg' data-aos="fade-left")
         .row
           .col-lg-4.mb-4.mb-lg-0
-            figure
+            figure.col-lg-12.col-md-5.m-auto.col-9
               img(src='@/assets/curso/tema2/10.svg' data-aos="fade-right")
           .col-lg-8
             h4.text-start(data-aos="fade-left") El Copasst o vigía de seguridad y salud en el trabajo
@@ -135,7 +135,7 @@
       .col-lg.mb-4.mb-lg-0
         .cont_tarjeta_2_1.p-4.row.m-0
           .col-lg-2.col-md-3.mb-3.mb-md-0.text-center(style="place-self:center;")
-            figure
+            figure.col-6.m-auto
               img(src='@/assets/curso/tema2/13.svg' data-aos="fade-right")
           .col-lg-6.col-md-5.mb-3.mb-md-0(style="place-self:center;")
             p.mb-0(data-aos="fade-up") Para el caso de un #[strong incidente o un cuasiaccidente] se recomienda hacer un paso a paso como se muestra a continuación:
@@ -146,7 +146,7 @@
       .col-lg.mb-4.mb-lg-0
         .cont_tarjeta_2_1.p-4.row.m-0
           .col-lg-2.col-md-3.mb-3.mb-md-0.text-center(style="place-self:center;")
-            figure
+            figure.col-6.m-auto
               img(src='@/assets/curso/tema2/14.svg' data-aos="fade-right")
           .col-lg-6.col-md-5.mb-3.mb-md-0(style="place-self:center;")
             p.mb-0(data-aos="fade-up") Para el caso de un #[strong accidente], se recomienda el paso a paso es diferente al del incidente tal como se ve a continuación:
@@ -416,12 +416,12 @@
           .col-lg-5(style="place-self:center;")
             figure
               img(src="@/assets/curso/tema2/27.svg" data-aos="fade-left")
-        p.mt-5(data-aos="fade-up") De entrada, el Ministerio de Trabajo pide el Sgsst, inducciones, reinducciones, exámenes médicos ocupacionales de ingreso y periódicos, plan de trabajo anual, cronograma de actividades de formación, evidencias de la entrega de EPP y equipos de protección personal, cursos de alturas, curso de rescate vertical, entre otros que son el soporte de prevención en materia de seguridad y salud en el trabajo. 
+        p.mt-4(data-aos="fade-up") De entrada, el Ministerio de Trabajo pide el Sgsst, inducciones, reinducciones, exámenes médicos ocupacionales de ingreso y periódicos, plan de trabajo anual, cronograma de actividades de formación, evidencias de la entrega de EPP y equipos de protección personal, cursos de alturas, curso de rescate vertical, entre otros que son el soporte de prevención en materia de seguridad y salud en el trabajo. 
 
-        .row.mt-5.p-4(style="background-color:#9AECCD;")
+        .row.mt-4.p-4(style="background-color:#9AECCD;")
           .col-lg-2.col-md-3.mb-4.mb-md-0(style="place-self:center")
-            figure
-              img(src="@/assets/curso/tema2/28.svg" data-aos="fade-right")
+            figure.d-flex.justify-content-center
+              img(src="@/assets/curso/tema2/28.svg" data-aos="fade-right" style="max-width:90px;")
           .col-lg-10.col-md-9(style="place-self:center")
             p.mb-0(data-aos="fade-up") La #[strong ARL responde en el ciento por ciento] de atenciones médicas especializadas y demás que se requieran para el trabajador con pronóstico reservado. Un trabajador que queda postrado en cama recibe toda su atención con la ARL y, en el caso del trabajador fallecido, en la misma manera responde de acuerdo con la legislatura legal vigente.
 

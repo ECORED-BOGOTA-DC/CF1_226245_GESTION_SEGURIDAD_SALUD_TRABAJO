@@ -14,8 +14,9 @@
       .col-lg-8(style="place-self:center")
         p.mb-0(data-aos="fade-up") El peligro es una condición que se presenta en todo momento y lugar, de aquí la importancia de estar atento y alerta a cualquier irregularidad que pueda poner en riesgo la integridad de las personas, la vida y los intereses de la empresa. Un incidente advierte acerca de la aparición de un posible accidente y en consecuencia se toman las medidas necesarias del caso. En ese recurso se hace viable presentar la legalidad de lo que presenta el Estado para las empresas entendiendo que en todo momento la exposición al riesgo existe.
 
-    br
-    .titulo-segundo.mt-5
+    Separador.mt-5
+
+    .titulo-segundo
       h2#t_1_1 1.1 Normativa legal
 
     .row
@@ -217,7 +218,7 @@
 
     .row.mt-5
       .col-lg-1.col-md-3.mb-4.mb-md-0(style="place-self:center")
-        figure
+        figure.col-6.m-auto
           img(src="@/assets/curso/tema1/17.svg" data-aos="fade-right")
       .col-lg-11.col-md-9(style="place-self:center")
         p.mb-0(data-aos="fade-up") Los accidentes y enfermedades deben ser reportadas en el servicio de salud en los formatos dispuestos para eso, cada formato reposa en la base de datos de las prestadoras del servicio para su trámite de libre descarga, los formatos usados son el Furat y Furel:
@@ -232,7 +233,7 @@
               span(@click="mostrarIndicador = false") Ver formato &nbsp;&nbsp;#[i.fas.fa-search-plus]
               .indicador--click(v-if="mostrarIndicador")
           .col-lg-2(style="place-self:center")
-            figure
+            figure.col-md-12.col-8.m-auto
               img(src="@/assets/curso/tema1/20.svg")
         .row.tarjeta.color-acento-botones.p-5.cont_tarjeta_slyderf
           .col-lg-10.mb-4.mb-lg-0
@@ -242,7 +243,7 @@
               span(@click="mostrarIndicador = false") Ver formato &nbsp;&nbsp;#[i.fas.fa-search-plus]
               .indicador--click(v-if="mostrarIndicador")
           .col-lg-2(style="place-self:center")
-            figure
+            figure.col-md-12.col-8.m-auto
               img(src="@/assets/curso/tema1/20.svg")
         .row.tarjeta.color-acento-botones.p-5.cont_tarjeta_slyderf
           .col-lg-10.mb-4.mb-lg-0
@@ -252,7 +253,7 @@
               span(@click="mostrarIndicador = false") Ver formato &nbsp;&nbsp;#[i.fas.fa-search-plus]
               .indicador--click(v-if="mostrarIndicador")
           .col-lg-2(style="place-self:center")
-            figure
+            figure.col-md-12.col-8.m-auto
               img(src="@/assets/curso/tema1/20.svg")
         .row.tarjeta.color-acento-botones.p-5.cont_tarjeta_slyderf
           .col-lg-10.mb-4.mb-lg-0
@@ -261,14 +262,14 @@
               span(@click="mostrarIndicador = false") Ver formato &nbsp;&nbsp;#[i.fas.fa-search-plus]
               .indicador--click(v-if="mostrarIndicador")
           .col-lg-2(style="place-self:center")
-            figure
+            figure.col-md-12.col-8.m-auto
               img(src="@/assets/curso/tema1/20.svg")
         .row.tarjeta.color-acento-botones.p-5.cont_tarjeta_slyderf
           .col-lg-7.mb-4.mb-lg-0
             h4 Tiempos importantes
             p.mt-4 Para los formatos Furat y Furel se cuenta con exactas 48 horas contadas a partir del siniestro (accidente de trabajo) y/o del diagnóstico de la enfermedad laboral. Cada empresa tiene acceso a la plataforma de su Administradora de Riesgos Laborales ARL y el responsable del Sgsst será quien acceda con su código para diligenciar cada formulario. Para el caso del reporte del accidente de trabajo es necesario escuchar la versión del trabajador para su consignación.
           .col-lg-5(style="place-self:center")
-            figure
+            figure.col-md-12.col-8.m-auto
               img(src="@/assets/curso/tema1/21.png")
     
     ModalA(:abrir-modal.sync="modal1")
@@ -336,7 +337,7 @@
 
     .row.mt-5
       .col-lg-1.col-md-3.mb-4.mb-md-0(style="place-self:center")
-        figure
+        figure.col-6.m-auto
           img(src="@/assets/curso/tema1/27.svg" data-aos="fade-right")
       .col-lg-11.col-md-9(style="place-self:center")
         p.mb-0(data-aos="fade-up") Los #[strong ATEL (Accidente de Trabajo, Enfermedad Laboral)] son parte de la vida laboral y aunque se reducen al máximo mientras se trabaje de buena forma la prevención desde en salud y seguridad en el trabajo son probables y por eso la ley deja claro que cada caso de estos será trabajado de buena forma y por supuesto que el trabajador seguirá siendo protegido y seguirá recibiendo su salario siempre y cuando el contrato de trabajo sea legal tal como lo puede ver a continuación salvaguardando siempre al trabajador:
@@ -347,16 +348,16 @@
           img(src="@/assets/curso/tema1/28.svg" data-aos="fade-right")
       .col-lg-8(style="place-self:center")
         .row.cont_1_6.p-4
-          .col-lg-10.col-md-9.pe-0(style="place-self:center")
+          .col-lg-10.col-md-9.pe-0.mb-4.mb-md-0(style="place-self:center")
             p.mb-0(data-aos="fade-up") Los trabajadores con un ATEL (Accidente de Trabajo, Enfermedad Laboral) tienen derechos adquiridos en su 100% con la ARL. Las atenciones médicas, el apoyo diagnóstico, medicamentos, tratamiento rehabilitación física y laboral, incapacidad médica, entre otras, son cubiertas por cada administradora de riesgos laborales.
           .col-lg-2.col-md-3.ps-0(style="place-self:center")
-            figure
+            figure.col-6.m-auto
               img(src="@/assets/curso/tema1/29.svg" data-aos="fade-right")
         .row.cont_1_6.p-4.mt-4
-          .col-lg-10.col-md-9.pe-0(style="place-self:center")
+          .col-lg-10.col-md-9.pe-0.mb-4.mb-md-0(style="place-self:center")
             p.mb-0(data-aos="fade-up") La Ley 1562 de 2012, por la cual se modifica el Sistema de Riesgos Laborales y se dictan otras disposiciones en materia de salud ocupacional, julio 11 de 2012. 
           .col-lg-2.col-md-3.ps-0(style="place-self:center")
-            figure
+            figure.col-6.m-auto
               img(src="@/assets/curso/tema1/30.svg" data-aos="fade-right")
 
 
