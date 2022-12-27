@@ -233,7 +233,7 @@
               span(@click="mostrarIndicador = false") Ver formato &nbsp;&nbsp;#[i.fas.fa-search-plus]
               .indicador--click(v-if="mostrarIndicador")
           .col-lg-2(style="place-self:center")
-            figure.col-md-12.col-8.m-auto
+            figure.col-md-7.col-6.m-auto
               img(src="@/assets/curso/tema1/20.svg")
         .row.tarjeta.color-acento-botones.p-5.cont_tarjeta_slyderf
           .col-lg-10.mb-4.mb-lg-0
@@ -243,7 +243,7 @@
               span(@click="mostrarIndicador = false") Ver formato &nbsp;&nbsp;#[i.fas.fa-search-plus]
               .indicador--click(v-if="mostrarIndicador")
           .col-lg-2(style="place-self:center")
-            figure.col-md-12.col-8.m-auto
+            figure.col-md-7.col-6.m-auto
               img(src="@/assets/curso/tema1/20.svg")
         .row.tarjeta.color-acento-botones.p-5.cont_tarjeta_slyderf
           .col-lg-10.mb-4.mb-lg-0
@@ -253,7 +253,7 @@
               span(@click="mostrarIndicador = false") Ver formato &nbsp;&nbsp;#[i.fas.fa-search-plus]
               .indicador--click(v-if="mostrarIndicador")
           .col-lg-2(style="place-self:center")
-            figure.col-md-12.col-8.m-auto
+            figure.col-md-7.col-6.m-auto
               img(src="@/assets/curso/tema1/20.svg")
         .row.tarjeta.color-acento-botones.p-5.cont_tarjeta_slyderf
           .col-lg-10.mb-4.mb-lg-0
@@ -262,14 +262,14 @@
               span(@click="mostrarIndicador = false") Ver formato &nbsp;&nbsp;#[i.fas.fa-search-plus]
               .indicador--click(v-if="mostrarIndicador")
           .col-lg-2(style="place-self:center")
-            figure.col-md-12.col-8.m-auto
+            figure.col-md-7.col-6.m-auto
               img(src="@/assets/curso/tema1/20.svg")
         .row.tarjeta.color-acento-botones.p-5.cont_tarjeta_slyderf
           .col-lg-7.mb-4.mb-lg-0
             h4 Tiempos importantes
             p.mt-4 Para los formatos Furat y Furel se cuenta con exactas 48 horas contadas a partir del siniestro (accidente de trabajo) y/o del diagnóstico de la enfermedad laboral. Cada empresa tiene acceso a la plataforma de su Administradora de Riesgos Laborales ARL y el responsable del Sgsst será quien acceda con su código para diligenciar cada formulario. Para el caso del reporte del accidente de trabajo es necesario escuchar la versión del trabajador para su consignación.
           .col-lg-5(style="place-self:center")
-            figure.col-md-12.col-8.m-auto
+            figure.col-md-7.col-6.m-auto
               img(src="@/assets/curso/tema1/21.png")
     
     ModalA(:abrir-modal.sync="modal1")
